@@ -71,8 +71,7 @@ function reduceDict<T, V>(
   let valToReturn = initialVal;
   for(let key in input){
     const thisVal = input[key];
-    valToReturn = reducer(val
-      ToReturn, thisVal)
+    valToReturn = reducer(valToReturn, thisVal)
   }
 
   return valToReturn;
